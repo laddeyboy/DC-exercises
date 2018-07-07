@@ -1,0 +1,33 @@
+{
+  "name": "my_first_module",
+  "version": "1.0.0",
+  "description": "package for npm exercises",
+  "main": "callbacks.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "fs-promise": "^2.0.3",
+    "lodash": "^4.17.10",
+    "marked": "^0.3.19",
+    "pg-promise": "^8.4.4",
+    "prompt-promise": "^1.0.3",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "request-promises": "^1.1.0",
+    "sharp": "^0.20.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laddeyboy/javascript-exercises.git"
+  },
+  "author": "Josh Ladwig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laddeyboy/javascript-exercises/issues"
+  },
+  "homepage": "https://github.com/laddeyboy/javascript-exercises#readme"
+}

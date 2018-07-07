@@ -1,0 +1,42 @@
+.modal-dialog {
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    right: 45%;
+    width: 300px;
+    height: auto;
+    border: 3px solid gray;
+    z-index: 4;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px #3c3c3c;
+}
+
+.modal-header {
+    background-color: gray;
+    color: white;
+    padding-left: 6px;
+    font-size: 2em;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.modal-buttons {
+    /*position: absolute;*/
+    right: 100px;
+    padding: 6px;
+    text-align: right;
+}
+
+.container {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    opacity: .7;
+}
+
+body {
+    background-color: black;
+}

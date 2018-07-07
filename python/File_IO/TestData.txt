@@ -1,0 +1,2 @@
+This is a file with some random information.
+It will be used for file I/O exercises.

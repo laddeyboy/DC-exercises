@@ -1,0 +1,44 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "6343fca9d16c3b4d2a42ddf27ea73cec8677454a1831b324cc8fe2bf1a48308c"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.5.2",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "4.4.0-112-generic",
+            "platform_system": "Linux",
+            "platform_version": "#135-Ubuntu SMP Fri Jan 19 11:48:36 UTC 2018",
+            "python_full_version": "3.5.2",
+            "python_version": "3.5",
+            "sys_platform": "linux"
+        },
+        "pipfile-spec": 6,
+        "requires": {},
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "maxminddb": {
+            "hashes": [
+                "sha256:972399b6d08b4cbb7889f2d2489266d18811c5ef6109cc52eb28de4102bbc4be"
+            ],
+            "version": "==1.3.0"
+        },
+        "maxminddb-geolite2": {
+            "hashes": [
+                "sha256:b9bd9f07aa63ebfac896380b26bf122a4fddfe003ab0b677b8064f229de88051"
+            ],
+            "version": "==2018.308"
+        }
+    },
+    "develop": {}
+}

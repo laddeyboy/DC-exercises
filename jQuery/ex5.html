@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo List Exercise</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="jquery.js"></script>
+    <script>
+    /*
+    Make it so that when you click on one of the links on this page,
+    instead of navigating the browser to that page, it renders that
+    page in the iframe below. Set the iframe's `src` attribute to a URL will cause it to render the page.
+    */
+    $(function(){
+    // $(document).ready(function () {
+      $('ul li:nth-child(1)').click(function(event){
+        event.preventDefault();
+        let temp = $(this).find('a').attr('href');
+        $('#iframe').attr('src', temp);
+       });
+      $('ul li:nth-child(2)').click(function(event){
+        event.preventDefault();
+        let temp = $(this).find('a').attr('href');
+        $('#iframe').attr('src', temp);
+       });
+      $('ul li:nth-child(3)').click(function(event){
+        event.preventDefault();
+        let temp = $(this).find('a').attr('href');
+        $('#iframe').attr('src', temp);
+       });
+    });
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="https://hellohappy.org">Hello Happy</a></li>
+      <li><a href="https://duckduckgo.com">DuckDuckGo</a></li>
+      <li><a href="https://css-tricks.com">CSS Tricks</a></li>
+    </ul>
+    <iframe id="iframe" src="https://www.excite.com" width="800" height="480"></iframe>
+  </body>
+</html>

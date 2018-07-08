@@ -14,3 +14,12 @@ This is a general repo to store non-project exercise files from DC Flex Boot Cam
 
 5) postgreSQL - this folder contains .sql files that were used when learning how to PostgreSQL.  This contains SQL schema setups,
     as well as database read and write queries.
+    
+6) express-example - this folder contains simple examples of app handling using Express.
+    Page 1 - "/" outputs "Hello World" after the route is processed through the JavaScript Express app handler.
+    Page 2 - "/cats" routes the site to the "/cats" page.  Displays "MEOW".
+    Page 3 - "/dogs" routes the site to the "/dogs" page.  Displays "WOOF".
+    Page 4 - "/cats" routes the site to the "/cats_and_dogs" page.  Displays "Living together".
+    Page 5 - "/greet/:slug" will display a greeting to a user and provide them their birthYear base on information
+        provided in the :slug portion of the url.
+    Page 6 - "/fav_manga" displays a list of favorite manage after reading the 'favorite:' attribute from the JS object.

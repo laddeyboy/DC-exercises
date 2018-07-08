@@ -16,6 +16,7 @@ This is a general repo to store non-project exercise files from DC Flex Boot Cam
     as well as database read and write queries.
     
 6) express-example - this folder contains simple examples of app handling using Express.
+    This was written in JavaScript using Express and the use of nodemon.
     Page 1 - "/" outputs "Hello World" after the route is processed through the JavaScript Express app handler.
     Page 2 - "/cats" routes the site to the "/cats" page.  Displays "MEOW".
     Page 3 - "/dogs" routes the site to the "/dogs" page.  Displays "WOOF".
